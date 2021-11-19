@@ -1,1 +1,1 @@
-# PhysiologicalSensorAdaptation
+# Adaptive VR Cubes
