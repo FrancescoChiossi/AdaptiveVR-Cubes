@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.Collections;
 using UnityEngine;
 
-public class CharacterNavigationController : MonoBehaviour
+public class Cubecontroller : MonoBehaviour
 {
     [ReadOnly] public string destination;
     [ReadOnly] public Vector3 destinationVec;
@@ -33,10 +33,8 @@ public class CharacterNavigationController : MonoBehaviour
             if (destinationDistance >= minDistance)
             {
                 reachedDestination = false;
-                Quaternion targetRotation = Quaternion.LookRotation(destinationDirection);
-                transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
                 //transform.Rotate(new Vector3(0, rotationSpeed * Time.deltaTime, 0));
-                transform.Translate(Vector3.forward * movementSpeed * Time.deltaTime);
+                transform.Translate(destinationDirection * movementSpeed * Time.deltaTime);
             }
             else
             {

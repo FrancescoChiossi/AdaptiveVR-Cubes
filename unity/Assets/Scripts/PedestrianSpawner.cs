@@ -153,7 +153,7 @@ public class PedestrianSpawner : MonoBehaviour
         character.transform.position = startPosition;
         character.GetComponent<WaypointNavigator>().currentWaypoint = wp2;
 
-        character.GetComponents<Animator>()[0].enabled = true;
+        //character.GetComponents<Animator>()[0].enabled = true;
         foreach (MonoBehaviour monoBehaviour in character.GetComponents<MonoBehaviour>())
         {
             monoBehaviour.enabled = true;
