@@ -33,7 +33,7 @@ public class Cubecontroller : MonoBehaviour
             if (destinationDistance >= minDistance)
             {
                 reachedDestination = false;
-                //transform.Rotate(new Vector3(0, rotationSpeed * Time.deltaTime, 0));
+                transform.Rotate(new Vector3(0, rotationSpeed * Time.deltaTime, 0));
                 transform.Translate(destinationDirection * movementSpeed * Time.deltaTime);
             }
             else
