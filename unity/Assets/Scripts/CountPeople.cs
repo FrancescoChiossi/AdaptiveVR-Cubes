@@ -29,15 +29,15 @@ public class CountPeople : MonoBehaviour
     {
         if (col.gameObject.tag == "visitor")
         {
-            GameObject liam = col.gameObject;
-            var randomHair = liam.GetComponent<RandomHair>();
+            GameObject cube = col.gameObject;
+           
 
             var timestamp = UnixTime.GetTime();
             timeSpan = timestamp - startTime;
-            bool hasticket = liam.GetComponent<TicketSpawner>().hasticket;
-            string shirtcolor = liam.GetComponent<ShirtController>().shirtcolor;
-            string hair = randomHair.liamhair;
-            logger.writeFlow(timestamp, liam.name, hasticket, shirtcolor, hair);
+          
+            string shirtcolor = cube.GetComponent<ShirtController>().shirtcolor;
+            
+            logger.writeFlow(timestamp, cube.name);
         }
 
 
