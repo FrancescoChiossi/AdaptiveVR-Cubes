@@ -37,7 +37,7 @@ public class PedestrianSpawner : MonoBehaviour
         }
 
         int countStart = characterRoot.transform.childCount;
-        if (countStart < pedestriansToSpawn)
+        while (countStart < pedestriansToSpawn)
         {
             Spawn(true);
             countStart++;
@@ -56,12 +56,12 @@ public class PedestrianSpawner : MonoBehaviour
             if (pedestriansToSpawn != pedestriansToSpawnLast)
             {
                 int countStart = characterRoot.transform.childCount;
-                if (countStart < pedestriansToSpawn)
+                while (countStart < pedestriansToSpawn)
                 {
                     Spawn(true);
                     countStart++;
                 }
-                if (countStart > pedestriansToSpawn)
+                while (countStart > pedestriansToSpawn)
                 {
                     Remove();
                     countStart--;
@@ -112,8 +112,8 @@ public class PedestrianSpawner : MonoBehaviour
             }
         }
 
-        //GameObject character = Instantiate(characterList.transform.GetChild(Random.Range(0, characterList.transform.childCount)).gameObject);
-        GameObject character = Instantiate(characterList.transform.GetChild(1).gameObject); // cube-only
+        GameObject character = Instantiate(characterList.transform.GetChild(Random.Range(1, characterList.transform.childCount)).gameObject);
+        //GameObject character = Instantiate(characterList.transform.GetChild(1).gameObject); // cube-only
         // e.g. Liam1
         character.name = character.name.Replace("(Clone)", "") + count;
         character.transform.parent = characterRoot.transform;

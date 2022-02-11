@@ -46,7 +46,7 @@ public class RecordBaseline : MonoBehaviour
         double time = UnixTime.GetTime();
         currentDuration = time - timeStart;
         if (baselineAverage > currentDuration) {
-            valuesStart.Add((input.lastValues[0] / 1000) / 25);
+            valuesStart.Add(input.lastValues[0] / 1000 / 25);
         }
 
         if (duration > currentDuration && duration - baselineAverage < currentDuration)

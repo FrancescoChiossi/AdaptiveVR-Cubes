@@ -35,7 +35,7 @@ public class CountPeople : MonoBehaviour
             var timestamp = UnixTime.GetTime();
             timeSpan = timestamp - startTime;
           
-            string shirtcolor = cube.GetComponent<ShirtController>().shirtcolor;
+            //string shirtcolor = cube.GetComponent<ShirtController>().shirtcolor;
             
             logger.writeFlow(timestamp, cube.name);
         }
