@@ -1,0 +1,1522 @@
+fileFormatVersion: 2
+guid: 3ba99e6dc88a74d10b4c9e2ba43d82ed
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -3061641682198036038
+    second: Sol|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: -8661188929047177418
+    second: Sol|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: 6221427129135588310
+    second: Sol|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: -759792107593767648
+    second: Sol|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: -6451956347254588707
+    second: Sol|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: 9218314586245441618
+    second: Sol|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: 1749749258145080231
+    second: Sol|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: 915284423334409012
+    second: Sol|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: -3691182368944112008
+    second: Sol|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: 9005836883021165410
+    second: Sol|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: 8296059425211382334
+    second: Sol|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: 8655753915140473441
+    second: Sol|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: 576255091766420774
+    second: Sol|Camara 1|Take 001|BaseLayer
+  - first:
+      74: 2645556119633239932
+    second: Sol|glass_10|Take 001|BaseLayer
+  - first:
+      74: 3697421567110871162
+    second: Sol|glass_2|Take 001|BaseLayer
+  - first:
+      74: 8790648171284342626
+    second: Sol|glass_3|Take 001|BaseLayer
+  - first:
+      74: 534307696457034010
+    second: Sol|glass_4|Take 001|BaseLayer
+  - first:
+      74: -929609108258196862
+    second: Sol|glass_5|Take 001|BaseLayer
+  - first:
+      74: -3559462076527080026
+    second: Sol|glass|Take 001|BaseLayer
+  - first:
+      74: -7884825179748644513
+    second: Sol|Sol|Take 001|BaseLayer
+  - first:
+      74: -72847667749683082
+    second: Sol|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: -5077251052770652889
+    second: Sol|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: 7360698350897804625
+    second: Sol|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: -4450628986456201563
+    second: Sol|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: 660629025134303893
+    second: Sol|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: -73005110354438937
+    second: glass_4|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: 5281838835066277473
+    second: glass_4|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: 2809033503841129800
+    second: glass_4|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: -7854952865981047212
+    second: glass_4|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: -1743769517474737465
+    second: glass_4|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: -5572314888694095412
+    second: glass_4|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: -4027916642237596068
+    second: glass_4|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: -7377987492246151113
+    second: glass_4|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: 3426532447710810730
+    second: glass_4|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: -7720897895124571720
+    second: glass_4|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: 1620294958885111081
+    second: glass_4|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: -5195756406435918452
+    second: glass_4|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: -7609036014691725182
+    second: glass_4|Camara 1|Take 001|BaseLayer
+  - first:
+      74: 2009885882867671114
+    second: glass_4|glass_10|Take 001|BaseLayer
+  - first:
+      74: 2691128388456837787
+    second: glass_4|glass_2|Take 001|BaseLayer
+  - first:
+      74: -2672871264414030510
+    second: glass_4|glass_3|Take 001|BaseLayer
+  - first:
+      74: -6186363845797444877
+    second: glass_4|glass_4|Take 001|BaseLayer
+  - first:
+      74: 8819986810166216107
+    second: glass_4|glass_5|Take 001|BaseLayer
+  - first:
+      74: -3496669179370528802
+    second: glass_4|glass|Take 001|BaseLayer
+  - first:
+      74: 6280202586056151091
+    second: glass_4|Sol|Take 001|BaseLayer
+  - first:
+      74: 8535249348328368282
+    second: glass_4|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: 3271782732086359071
+    second: glass_4|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: -1645387562443524084
+    second: glass_4|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: 5930116004336991647
+    second: glass_4|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: 3488306716632232277
+    second: glass_4|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: 312968491980831863
+    second: Bryan_Castaneda_foto_1_4|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: -2281081618296750772
+    second: Bryan_Castaneda_foto_1_4|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: 152546827840625153
+    second: Bryan_Castaneda_foto_1_4|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: 1347033691811011900
+    second: Bryan_Castaneda_foto_1_4|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: -4156326739073812546
+    second: Bryan_Castaneda_foto_1_4|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: 8269830351292144643
+    second: Bryan_Castaneda_foto_1_4|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: 4513647772863805328
+    second: Bryan_Castaneda_foto_1_4|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: 7579379547343053768
+    second: Bryan_Castaneda_foto_1_4|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: 1452000827275562848
+    second: Bryan_Castaneda_foto_1_4|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: -8710239435340937678
+    second: Bryan_Castaneda_foto_1_4|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: 5019130673393123546
+    second: Bryan_Castaneda_foto_1_4|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: 6135286634480853435
+    second: Bryan_Castaneda_foto_1_4|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: 1794239485975851376
+    second: Bryan_Castaneda_foto_1_4|Camara 1|Take 001|BaseLayer
+  - first:
+      74: -1939762159320784440
+    second: Bryan_Castaneda_foto_1_4|glass_10|Take 001|BaseLayer
+  - first:
+      74: -42890837911149252
+    second: Bryan_Castaneda_foto_1_4|glass_2|Take 001|BaseLayer
+  - first:
+      74: 8112273733715829978
+    second: Bryan_Castaneda_foto_1_4|glass_3|Take 001|BaseLayer
+  - first:
+      74: -1021119396287350335
+    second: Bryan_Castaneda_foto_1_4|glass_4|Take 001|BaseLayer
+  - first:
+      74: -2696573998216974233
+    second: Bryan_Castaneda_foto_1_4|glass_5|Take 001|BaseLayer
+  - first:
+      74: -7200953423898886559
+    second: Bryan_Castaneda_foto_1_4|glass|Take 001|BaseLayer
+  - first:
+      74: -286201294513115026
+    second: Bryan_Castaneda_foto_1_4|Sol|Take 001|BaseLayer
+  - first:
+      74: -6748067638307569186
+    second: Bryan_Castaneda_foto_1_4|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: 1029346917783039501
+    second: Bryan_Castaneda_foto_1_4|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: -7034361101713489595
+    second: Bryan_Castaneda_foto_1_4|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: 3574240974078155154
+    second: Bryan_Castaneda_foto_1_4|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: 88396125596802629
+    second: Bryan_Castaneda_foto_1_4|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: 4742471161288568988
+    second: Bryan_Castaneda|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: 1558060385852487781
+    second: Bryan_Castaneda|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: 6135773991755189412
+    second: Bryan_Castaneda|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: 903830815402808547
+    second: Bryan_Castaneda|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: 7424251422573775599
+    second: Bryan_Castaneda|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: -6697687472932653077
+    second: Bryan_Castaneda|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: 2844462983444158081
+    second: Bryan_Castaneda|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: 762844413383177206
+    second: Bryan_Castaneda|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: -3944463475616687643
+    second: Bryan_Castaneda|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: -1870857484501592020
+    second: Bryan_Castaneda|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: 7364730488580251973
+    second: Bryan_Castaneda|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: -1619212819861499847
+    second: Bryan_Castaneda|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: 1565463305918160745
+    second: Bryan_Castaneda|Camara 1|Take 001|BaseLayer
+  - first:
+      74: 2100654670565441086
+    second: Bryan_Castaneda|glass_10|Take 001|BaseLayer
+  - first:
+      74: -809564911896313288
+    second: Bryan_Castaneda|glass_2|Take 001|BaseLayer
+  - first:
+      74: -6758863391304595898
+    second: Bryan_Castaneda|glass_3|Take 001|BaseLayer
+  - first:
+      74: 6674653592460257312
+    second: Bryan_Castaneda|glass_4|Take 001|BaseLayer
+  - first:
+      74: 1974357093933518364
+    second: Bryan_Castaneda|glass_5|Take 001|BaseLayer
+  - first:
+      74: -6239427379129147305
+    second: Bryan_Castaneda|glass|Take 001|BaseLayer
+  - first:
+      74: 6681253467539773181
+    second: Bryan_Castaneda|Sol|Take 001|BaseLayer
+  - first:
+      74: 612410988394948863
+    second: Bryan_Castaneda|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: -3466084858364785249
+    second: Bryan_Castaneda|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: 9171291025616153251
+    second: Bryan_Castaneda|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: 1565164402827489993
+    second: Bryan_Castaneda|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: 1064264294175918494
+    second: Bryan_Castaneda|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: 7820220514446987416
+    second: glass_3|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: 5750055704699211856
+    second: glass_3|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: 8012018241746372074
+    second: glass_3|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: -1508883319498111322
+    second: glass_3|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: 3848488254761213924
+    second: glass_3|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: -6781570792335007917
+    second: glass_3|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: 2230602747778035175
+    second: glass_3|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: 3335915639620834645
+    second: glass_3|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: 2356393337047301918
+    second: glass_3|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: 1292184439090015372
+    second: glass_3|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: 1078588062919681248
+    second: glass_3|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: 3388900438481938043
+    second: glass_3|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: -6199168497170547211
+    second: glass_3|Camara 1|Take 001|BaseLayer
+  - first:
+      74: 708499021585767002
+    second: glass_3|glass_10|Take 001|BaseLayer
+  - first:
+      74: -363969190034468129
+    second: glass_3|glass_2|Take 001|BaseLayer
+  - first:
+      74: -4231039773924792145
+    second: glass_3|glass_3|Take 001|BaseLayer
+  - first:
+      74: 7182236380813235481
+    second: glass_3|glass_4|Take 001|BaseLayer
+  - first:
+      74: -1999884699523828423
+    second: glass_3|glass_5|Take 001|BaseLayer
+  - first:
+      74: 163981721273339482
+    second: glass_3|glass|Take 001|BaseLayer
+  - first:
+      74: 1710151544901024473
+    second: glass_3|Sol|Take 001|BaseLayer
+  - first:
+      74: 8082685990551646335
+    second: glass_3|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: -614334606476518229
+    second: glass_3|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: -7799915249720284670
+    second: glass_3|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: -6689556015289669440
+    second: glass_3|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: -2818067615153587627
+    second: glass_3|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: -7036275164094315230
+    second: Bryan_Castaneda_foto_1_3|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: -8518218050395718810
+    second: Bryan_Castaneda_foto_1_3|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: 5937162352600054908
+    second: Bryan_Castaneda_foto_1_3|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: 6889465361731230438
+    second: Bryan_Castaneda_foto_1_3|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: -9142309700739452103
+    second: Bryan_Castaneda_foto_1_3|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: 6169901372599097212
+    second: Bryan_Castaneda_foto_1_3|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: -2902575748509971989
+    second: Bryan_Castaneda_foto_1_3|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: 4237601408520283306
+    second: Bryan_Castaneda_foto_1_3|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: -6190946428286324533
+    second: Bryan_Castaneda_foto_1_3|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: 864793520024522306
+    second: Bryan_Castaneda_foto_1_3|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: -86730936240999693
+    second: Bryan_Castaneda_foto_1_3|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: 7502516244621345169
+    second: Bryan_Castaneda_foto_1_3|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: 8606942635378692324
+    second: Bryan_Castaneda_foto_1_3|Camara 1|Take 001|BaseLayer
+  - first:
+      74: 1613976426541893246
+    second: Bryan_Castaneda_foto_1_3|glass_10|Take 001|BaseLayer
+  - first:
+      74: 4639260285889943067
+    second: Bryan_Castaneda_foto_1_3|glass_2|Take 001|BaseLayer
+  - first:
+      74: 2991903950648486109
+    second: Bryan_Castaneda_foto_1_3|glass_3|Take 001|BaseLayer
+  - first:
+      74: -3584167574727512589
+    second: Bryan_Castaneda_foto_1_3|glass_4|Take 001|BaseLayer
+  - first:
+      74: 8236273370494158419
+    second: Bryan_Castaneda_foto_1_3|glass_5|Take 001|BaseLayer
+  - first:
+      74: 4052421091438951965
+    second: Bryan_Castaneda_foto_1_3|glass|Take 001|BaseLayer
+  - first:
+      74: 4940306078018872218
+    second: Bryan_Castaneda_foto_1_3|Sol|Take 001|BaseLayer
+  - first:
+      74: -1998038590004667970
+    second: Bryan_Castaneda_foto_1_3|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: 1143351158080642845
+    second: Bryan_Castaneda_foto_1_3|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: 4419595594166101099
+    second: Bryan_Castaneda_foto_1_3|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: -7840336006568603701
+    second: Bryan_Castaneda_foto_1_3|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: 8517112824569429456
+    second: Bryan_Castaneda_foto_1_3|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: 3518613064815348774
+    second: Bryan_Castaneda_1|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: -6317877818522139783
+    second: Bryan_Castaneda_1|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: 2046936755219685092
+    second: Bryan_Castaneda_1|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: 7635464854264066243
+    second: Bryan_Castaneda_1|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: 7624379224464900694
+    second: Bryan_Castaneda_1|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: 6463584094999667195
+    second: Bryan_Castaneda_1|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: -8077124802835601583
+    second: Bryan_Castaneda_1|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: 7688186631898778878
+    second: Bryan_Castaneda_1|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: -6548606227019752003
+    second: Bryan_Castaneda_1|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: -6604719883708842539
+    second: Bryan_Castaneda_1|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: -3646562431595360105
+    second: Bryan_Castaneda_1|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: -2748666526424987000
+    second: Bryan_Castaneda_1|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: 6224500553749266457
+    second: Bryan_Castaneda_1|Camara 1|Take 001|BaseLayer
+  - first:
+      74: 6422102766769893304
+    second: Bryan_Castaneda_1|glass_10|Take 001|BaseLayer
+  - first:
+      74: -4613587359330065741
+    second: Bryan_Castaneda_1|glass_2|Take 001|BaseLayer
+  - first:
+      74: 6963063096048504285
+    second: Bryan_Castaneda_1|glass_3|Take 001|BaseLayer
+  - first:
+      74: 3467700341362113980
+    second: Bryan_Castaneda_1|glass_4|Take 001|BaseLayer
+  - first:
+      74: 2765381017100577429
+    second: Bryan_Castaneda_1|glass_5|Take 001|BaseLayer
+  - first:
+      74: 5405471938786086131
+    second: Bryan_Castaneda_1|glass|Take 001|BaseLayer
+  - first:
+      74: 855726140652213567
+    second: Bryan_Castaneda_1|Sol|Take 001|BaseLayer
+  - first:
+      74: -7832141854733614755
+    second: Bryan_Castaneda_1|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: -2534842311867110438
+    second: Bryan_Castaneda_1|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: 3936536870796141509
+    second: Bryan_Castaneda_1|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: -6786525361195292317
+    second: Bryan_Castaneda_1|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: -3364638828049038647
+    second: Bryan_Castaneda_1|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: -7591911924143837570
+    second: glass_2|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: -7592132653675354924
+    second: glass_2|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: -4400393285495697364
+    second: glass_2|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: 7586405168363109744
+    second: glass_2|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: -7325786583956765405
+    second: glass_2|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: -3729523002794322886
+    second: glass_2|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: 450353330006529362
+    second: glass_2|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: -6305309474940904743
+    second: glass_2|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: 6084399110046338520
+    second: glass_2|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: 7506880787584167078
+    second: glass_2|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: -4373425932882880839
+    second: glass_2|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: -9124137484054087472
+    second: glass_2|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: -1094466779407801450
+    second: glass_2|Camara 1|Take 001|BaseLayer
+  - first:
+      74: -6317509817963758915
+    second: glass_2|glass_10|Take 001|BaseLayer
+  - first:
+      74: 4595128941189087588
+    second: glass_2|glass_2|Take 001|BaseLayer
+  - first:
+      74: -3310201783686382142
+    second: glass_2|glass_3|Take 001|BaseLayer
+  - first:
+      74: 5046236270304198544
+    second: glass_2|glass_4|Take 001|BaseLayer
+  - first:
+      74: -1745571036334524026
+    second: glass_2|glass_5|Take 001|BaseLayer
+  - first:
+      74: 5503573771556347689
+    second: glass_2|glass|Take 001|BaseLayer
+  - first:
+      74: -6055787384192423458
+    second: glass_2|Sol|Take 001|BaseLayer
+  - first:
+      74: 8321645867299273684
+    second: glass_2|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: 6031059824442051745
+    second: glass_2|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: 8440218481006755822
+    second: glass_2|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: -5595429801779827389
+    second: glass_2|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: 7614082865549720273
+    second: glass_2|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: 2962999452418641538
+    second: Bryan_Castaneda_foto_1_2|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: -7579736310540897210
+    second: Bryan_Castaneda_foto_1_2|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: -8821437358611184754
+    second: Bryan_Castaneda_foto_1_2|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: 7921256667524516443
+    second: Bryan_Castaneda_foto_1_2|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: 6351037207516447674
+    second: Bryan_Castaneda_foto_1_2|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: -1638705695689307421
+    second: Bryan_Castaneda_foto_1_2|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: -3164942035857387301
+    second: Bryan_Castaneda_foto_1_2|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: 717134069612239847
+    second: Bryan_Castaneda_foto_1_2|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: -4110831527190292489
+    second: Bryan_Castaneda_foto_1_2|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: 5732788329287212259
+    second: Bryan_Castaneda_foto_1_2|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: -699136097431625951
+    second: Bryan_Castaneda_foto_1_2|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: -4133864973660040547
+    second: Bryan_Castaneda_foto_1_2|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: -1780413723917628183
+    second: Bryan_Castaneda_foto_1_2|Camara 1|Take 001|BaseLayer
+  - first:
+      74: 1201757656358495471
+    second: Bryan_Castaneda_foto_1_2|glass_10|Take 001|BaseLayer
+  - first:
+      74: -3057383602890761339
+    second: Bryan_Castaneda_foto_1_2|glass_2|Take 001|BaseLayer
+  - first:
+      74: 7775298285849391844
+    second: Bryan_Castaneda_foto_1_2|glass_3|Take 001|BaseLayer
+  - first:
+      74: -8962196154506302086
+    second: Bryan_Castaneda_foto_1_2|glass_4|Take 001|BaseLayer
+  - first:
+      74: 7907155397789024255
+    second: Bryan_Castaneda_foto_1_2|glass_5|Take 001|BaseLayer
+  - first:
+      74: -9059491589320793763
+    second: Bryan_Castaneda_foto_1_2|glass|Take 001|BaseLayer
+  - first:
+      74: 6846069955692645931
+    second: Bryan_Castaneda_foto_1_2|Sol|Take 001|BaseLayer
+  - first:
+      74: 2609519756955417347
+    second: Bryan_Castaneda_foto_1_2|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: 8122601587513457164
+    second: Bryan_Castaneda_foto_1_2|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: 690234885691243510
+    second: Bryan_Castaneda_foto_1_2|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: 5326599290245660522
+    second: Bryan_Castaneda_foto_1_2|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: -4808351677910592985
+    second: Bryan_Castaneda_foto_1_2|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: 8956722402828285310
+    second: Bryan_Castaneda_2|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: 8356949297970176922
+    second: Bryan_Castaneda_2|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: -2505635930541234764
+    second: Bryan_Castaneda_2|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: -2694926381458683538
+    second: Bryan_Castaneda_2|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: -1554600692923413234
+    second: Bryan_Castaneda_2|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: 7827340936754368915
+    second: Bryan_Castaneda_2|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: 6020454864846718966
+    second: Bryan_Castaneda_2|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: 8786631478879071795
+    second: Bryan_Castaneda_2|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: -6860929561822403169
+    second: Bryan_Castaneda_2|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: 7203102110870834402
+    second: Bryan_Castaneda_2|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: -2198271030255723150
+    second: Bryan_Castaneda_2|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: -5432518002160959584
+    second: Bryan_Castaneda_2|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: -6235894343704720514
+    second: Bryan_Castaneda_2|Camara 1|Take 001|BaseLayer
+  - first:
+      74: -9068973744141017966
+    second: Bryan_Castaneda_2|glass_10|Take 001|BaseLayer
+  - first:
+      74: -7159792231425057114
+    second: Bryan_Castaneda_2|glass_2|Take 001|BaseLayer
+  - first:
+      74: 3946632601876838345
+    second: Bryan_Castaneda_2|glass_3|Take 001|BaseLayer
+  - first:
+      74: -3398746247103225423
+    second: Bryan_Castaneda_2|glass_4|Take 001|BaseLayer
+  - first:
+      74: -8471684352196147009
+    second: Bryan_Castaneda_2|glass_5|Take 001|BaseLayer
+  - first:
+      74: -3938142945204138593
+    second: Bryan_Castaneda_2|glass|Take 001|BaseLayer
+  - first:
+      74: 5581861149559648495
+    second: Bryan_Castaneda_2|Sol|Take 001|BaseLayer
+  - first:
+      74: -904973833172328108
+    second: Bryan_Castaneda_2|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: 774819879696669994
+    second: Bryan_Castaneda_2|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: 7790207111496872839
+    second: Bryan_Castaneda_2|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: -1922556941087832749
+    second: Bryan_Castaneda_2|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: 8461866906877617257
+    second: Bryan_Castaneda_2|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: -5916421397833471217
+    second: glass|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: -5215184194349489026
+    second: glass|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: -8664125849852271816
+    second: glass|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: 536011290606990125
+    second: glass|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: -6491587478812903801
+    second: glass|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: -5735978246996548009
+    second: glass|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: -2652923527372259391
+    second: glass|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: -172832210934455672
+    second: glass|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: 1703196066942470162
+    second: glass|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: -308795699846336197
+    second: glass|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: -7094721919069930636
+    second: glass|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: -7065737533303998419
+    second: glass|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: -68028974781212254
+    second: glass|Camara 1|Take 001|BaseLayer
+  - first:
+      74: 4246036204024228972
+    second: glass|glass_10|Take 001|BaseLayer
+  - first:
+      74: 3749448742232035061
+    second: glass|glass_2|Take 001|BaseLayer
+  - first:
+      74: 6417010299610389713
+    second: glass|glass_3|Take 001|BaseLayer
+  - first:
+      74: -6599014256019272963
+    second: glass|glass_4|Take 001|BaseLayer
+  - first:
+      74: 4606911392729272777
+    second: glass|glass_5|Take 001|BaseLayer
+  - first:
+      74: 6985467559894068138
+    second: glass|glass|Take 001|BaseLayer
+  - first:
+      74: 6518907016961848150
+    second: glass|Sol|Take 001|BaseLayer
+  - first:
+      74: -2680381715746610167
+    second: glass|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: -6258614348572671088
+    second: glass|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: 7614193631510395041
+    second: glass|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: 2025143883131898157
+    second: glass|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: -7189070385778047294
+    second: glass|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: 380157809447734168
+    second: Bryan_Castaneda_foto_1|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: 576319865478091392
+    second: Bryan_Castaneda_foto_1|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: -6255085510129911782
+    second: Bryan_Castaneda_foto_1|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: 4007566565421514784
+    second: Bryan_Castaneda_foto_1|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: 3182716984355612675
+    second: Bryan_Castaneda_foto_1|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: -496474787806776991
+    second: Bryan_Castaneda_foto_1|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: 892813289128086146
+    second: Bryan_Castaneda_foto_1|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: -1345624241736852648
+    second: Bryan_Castaneda_foto_1|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: 7742127836430932127
+    second: Bryan_Castaneda_foto_1|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: -10543449453630572
+    second: Bryan_Castaneda_foto_1|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: 5884261318660181089
+    second: Bryan_Castaneda_foto_1|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: -5453146891494005446
+    second: Bryan_Castaneda_foto_1|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: 9175494494396865756
+    second: Bryan_Castaneda_foto_1|Camara 1|Take 001|BaseLayer
+  - first:
+      74: 4751714177757480145
+    second: Bryan_Castaneda_foto_1|glass_10|Take 001|BaseLayer
+  - first:
+      74: 9095101562881105857
+    second: Bryan_Castaneda_foto_1|glass_2|Take 001|BaseLayer
+  - first:
+      74: 6642353520097747247
+    second: Bryan_Castaneda_foto_1|glass_3|Take 001|BaseLayer
+  - first:
+      74: 6551427076499839649
+    second: Bryan_Castaneda_foto_1|glass_4|Take 001|BaseLayer
+  - first:
+      74: 807998516474399574
+    second: Bryan_Castaneda_foto_1|glass_5|Take 001|BaseLayer
+  - first:
+      74: 3105560683162911718
+    second: Bryan_Castaneda_foto_1|glass|Take 001|BaseLayer
+  - first:
+      74: 8983813860400781242
+    second: Bryan_Castaneda_foto_1|Sol|Take 001|BaseLayer
+  - first:
+      74: -8938454264738349275
+    second: Bryan_Castaneda_foto_1|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: 9151367679469112686
+    second: Bryan_Castaneda_foto_1|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: -573757754815654327
+    second: Bryan_Castaneda_foto_1|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: -4952824860401682753
+    second: Bryan_Castaneda_foto_1|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: -6260144362245895713
+    second: Bryan_Castaneda_foto_1|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: -6240210941617093013
+    second: Bryan_Castaneda_3|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: 5460164182979992891
+    second: Bryan_Castaneda_3|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: 7717933294415288842
+    second: Bryan_Castaneda_3|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: 82028215877112372
+    second: Bryan_Castaneda_3|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: 4087722012425536042
+    second: Bryan_Castaneda_3|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: -6764352971603662208
+    second: Bryan_Castaneda_3|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: 3984298148792804967
+    second: Bryan_Castaneda_3|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: 3804321069008905704
+    second: Bryan_Castaneda_3|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: -3121193091331166879
+    second: Bryan_Castaneda_3|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: -3162241046338741382
+    second: Bryan_Castaneda_3|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: 1273521120969167041
+    second: Bryan_Castaneda_3|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: -8136995969042549416
+    second: Bryan_Castaneda_3|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: 796779862108743011
+    second: Bryan_Castaneda_3|Camara 1|Take 001|BaseLayer
+  - first:
+      74: 8394375635468685419
+    second: Bryan_Castaneda_3|glass_10|Take 001|BaseLayer
+  - first:
+      74: 8748586997790453111
+    second: Bryan_Castaneda_3|glass_2|Take 001|BaseLayer
+  - first:
+      74: 5144690906233555960
+    second: Bryan_Castaneda_3|glass_3|Take 001|BaseLayer
+  - first:
+      74: 9079091445342745689
+    second: Bryan_Castaneda_3|glass_4|Take 001|BaseLayer
+  - first:
+      74: -6991242372065915758
+    second: Bryan_Castaneda_3|glass_5|Take 001|BaseLayer
+  - first:
+      74: -7462111199639731270
+    second: Bryan_Castaneda_3|glass|Take 001|BaseLayer
+  - first:
+      74: -7936017888751062871
+    second: Bryan_Castaneda_3|Sol|Take 001|BaseLayer
+  - first:
+      74: 705904614941700734
+    second: Bryan_Castaneda_3|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: -6115466012357571162
+    second: Bryan_Castaneda_3|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: -8264032711247687966
+    second: Bryan_Castaneda_3|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: -3921445726287576451
+    second: Bryan_Castaneda_3|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: -8340386219199995867
+    second: Bryan_Castaneda_3|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: -4968107797914255129
+    second: glass_5|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: 1527693471640222959
+    second: glass_5|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: -5808164635641115050
+    second: glass_5|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: 8861479861782777241
+    second: glass_5|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: -3971421200389134612
+    second: glass_5|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: 1292617962471295297
+    second: glass_5|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: -3314011769715381672
+    second: glass_5|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: -8581576313668998217
+    second: glass_5|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: -4428982187892730769
+    second: glass_5|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: 5558460636703152462
+    second: glass_5|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: 7305210244138485407
+    second: glass_5|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: -2229303451445862291
+    second: glass_5|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: -7607174760394241472
+    second: glass_5|Camara 1|Take 001|BaseLayer
+  - first:
+      74: -8280351429100600229
+    second: glass_5|glass_10|Take 001|BaseLayer
+  - first:
+      74: -2343898628280214986
+    second: glass_5|glass_2|Take 001|BaseLayer
+  - first:
+      74: 679237502183529730
+    second: glass_5|glass_3|Take 001|BaseLayer
+  - first:
+      74: 9073666140883656697
+    second: glass_5|glass_4|Take 001|BaseLayer
+  - first:
+      74: -7902291442502636729
+    second: glass_5|glass_5|Take 001|BaseLayer
+  - first:
+      74: 7832852876672839126
+    second: glass_5|glass|Take 001|BaseLayer
+  - first:
+      74: 8602820814449662128
+    second: glass_5|Sol|Take 001|BaseLayer
+  - first:
+      74: -221980642960383227
+    second: glass_5|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: -7060132589482928809
+    second: glass_5|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: -6463134277282271739
+    second: glass_5|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: -2053694187195058053
+    second: glass_5|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: -3569184109064972756
+    second: glass_5|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: 2899582731511260506
+    second: Bryan_Castaneda_foto_1_5|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: -3359598088841010414
+    second: Bryan_Castaneda_foto_1_5|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: 5181352265368492295
+    second: Bryan_Castaneda_foto_1_5|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: 926341963345497135
+    second: Bryan_Castaneda_foto_1_5|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: 8030459180837527195
+    second: Bryan_Castaneda_foto_1_5|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: -1960282305343784068
+    second: Bryan_Castaneda_foto_1_5|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: -7835710762568055644
+    second: Bryan_Castaneda_foto_1_5|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: 4198913226565829841
+    second: Bryan_Castaneda_foto_1_5|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: -3294004663020387062
+    second: Bryan_Castaneda_foto_1_5|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: -1316642936571522181
+    second: Bryan_Castaneda_foto_1_5|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: -5303919682102278737
+    second: Bryan_Castaneda_foto_1_5|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: -6484230580182179174
+    second: Bryan_Castaneda_foto_1_5|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: 8397538841386131942
+    second: Bryan_Castaneda_foto_1_5|Camara 1|Take 001|BaseLayer
+  - first:
+      74: 1140957940745142116
+    second: Bryan_Castaneda_foto_1_5|glass_10|Take 001|BaseLayer
+  - first:
+      74: 5461509289647643872
+    second: Bryan_Castaneda_foto_1_5|glass_2|Take 001|BaseLayer
+  - first:
+      74: 32451730369914968
+    second: Bryan_Castaneda_foto_1_5|glass_3|Take 001|BaseLayer
+  - first:
+      74: 665825218846631927
+    second: Bryan_Castaneda_foto_1_5|glass_4|Take 001|BaseLayer
+  - first:
+      74: -3198014478588023504
+    second: Bryan_Castaneda_foto_1_5|glass_5|Take 001|BaseLayer
+  - first:
+      74: -4392012617460050983
+    second: Bryan_Castaneda_foto_1_5|glass|Take 001|BaseLayer
+  - first:
+      74: 5706343170312012421
+    second: Bryan_Castaneda_foto_1_5|Sol|Take 001|BaseLayer
+  - first:
+      74: 5944332238536195416
+    second: Bryan_Castaneda_foto_1_5|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: 8560662726214606640
+    second: Bryan_Castaneda_foto_1_5|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: 4943653816826650121
+    second: Bryan_Castaneda_foto_1_5|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: -1311871046256531011
+    second: Bryan_Castaneda_foto_1_5|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: -7099202634842260726
+    second: Bryan_Castaneda_foto_1_5|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: 6484080554718995376
+    second: Bryan_Castaneda_4|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: 3118411925384430762
+    second: Bryan_Castaneda_4|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: 7523625583105125433
+    second: Bryan_Castaneda_4|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: -9125814253288057159
+    second: Bryan_Castaneda_4|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: 1597693971658610518
+    second: Bryan_Castaneda_4|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: 6241315356087944748
+    second: Bryan_Castaneda_4|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: -6790914534921800809
+    second: Bryan_Castaneda_4|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: -6468041244968752332
+    second: Bryan_Castaneda_4|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: 8234403526132673425
+    second: Bryan_Castaneda_4|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: -7023313795222639377
+    second: Bryan_Castaneda_4|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: -2769350630494674913
+    second: Bryan_Castaneda_4|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: -4845499925828918504
+    second: Bryan_Castaneda_4|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: -6901747148585783068
+    second: Bryan_Castaneda_4|Camara 1|Take 001|BaseLayer
+  - first:
+      74: 18520290938026065
+    second: Bryan_Castaneda_4|glass_10|Take 001|BaseLayer
+  - first:
+      74: -3300362494391244045
+    second: Bryan_Castaneda_4|glass_2|Take 001|BaseLayer
+  - first:
+      74: -4081344870176141490
+    second: Bryan_Castaneda_4|glass_3|Take 001|BaseLayer
+  - first:
+      74: 7312732943791014694
+    second: Bryan_Castaneda_4|glass_4|Take 001|BaseLayer
+  - first:
+      74: 8040646318722223434
+    second: Bryan_Castaneda_4|glass_5|Take 001|BaseLayer
+  - first:
+      74: 5808949626640282097
+    second: Bryan_Castaneda_4|glass|Take 001|BaseLayer
+  - first:
+      74: -178847484305524508
+    second: Bryan_Castaneda_4|Sol|Take 001|BaseLayer
+  - first:
+      74: -2213010663607187497
+    second: Bryan_Castaneda_4|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: -5567570545225885919
+    second: Bryan_Castaneda_4|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: 5062047130986806072
+    second: Bryan_Castaneda_4|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: -8810772570496395666
+    second: Bryan_Castaneda_4|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: -5628706095949233666
+    second: Bryan_Castaneda_4|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: 4249944645840020779
+    second: glass_10|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: -2668667404795289413
+    second: glass_10|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: -4016404075403080617
+    second: glass_10|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: -8382918204992690241
+    second: glass_10|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: -4098773048956667443
+    second: glass_10|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: -490062882821612542
+    second: glass_10|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: -4051351266523431587
+    second: glass_10|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: 1019617318645267841
+    second: glass_10|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: -4671816247704568285
+    second: glass_10|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: 2147835524047496422
+    second: glass_10|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: -4607619245203385819
+    second: glass_10|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: 1922790109807351564
+    second: glass_10|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: -9080696468315462
+    second: glass_10|Camara 1|Take 001|BaseLayer
+  - first:
+      74: -6968507562939061548
+    second: glass_10|glass_10|Take 001|BaseLayer
+  - first:
+      74: -7633005185000523227
+    second: glass_10|glass_2|Take 001|BaseLayer
+  - first:
+      74: 9153847928300155596
+    second: glass_10|glass_3|Take 001|BaseLayer
+  - first:
+      74: -9050238297055814448
+    second: glass_10|glass_4|Take 001|BaseLayer
+  - first:
+      74: 987854837573590719
+    second: glass_10|glass_5|Take 001|BaseLayer
+  - first:
+      74: 1519077126270485011
+    second: glass_10|glass|Take 001|BaseLayer
+  - first:
+      74: 6443148281125623896
+    second: glass_10|Sol|Take 001|BaseLayer
+  - first:
+      74: 8022977792393089136
+    second: glass_10|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: -6357328625664870523
+    second: glass_10|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: -2840942334991627338
+    second: glass_10|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: -6170128237871710748
+    second: glass_10|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: -3633669116858216209
+    second: glass_10|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: 560941065491197759
+    second: Bryan_Castaneda_foto_1_10|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: -914374952690051727
+    second: Bryan_Castaneda_foto_1_10|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: 5600200111964392870
+    second: Bryan_Castaneda_foto_1_10|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: -7239637666020284116
+    second: Bryan_Castaneda_foto_1_10|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: 9113333376792035237
+    second: Bryan_Castaneda_foto_1_10|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: -4016144394827815089
+    second: Bryan_Castaneda_foto_1_10|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: -3847862896024121165
+    second: Bryan_Castaneda_foto_1_10|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: -8200110951502276609
+    second: Bryan_Castaneda_foto_1_10|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: -2244048558884419483
+    second: Bryan_Castaneda_foto_1_10|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: -8891645226145344661
+    second: Bryan_Castaneda_foto_1_10|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: 4327826056247257588
+    second: Bryan_Castaneda_foto_1_10|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: 5222320525469275693
+    second: Bryan_Castaneda_foto_1_10|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: -7984223297079549478
+    second: Bryan_Castaneda_foto_1_10|Camara 1|Take 001|BaseLayer
+  - first:
+      74: -1902580362905683267
+    second: Bryan_Castaneda_foto_1_10|glass_10|Take 001|BaseLayer
+  - first:
+      74: -2464385642406513470
+    second: Bryan_Castaneda_foto_1_10|glass_2|Take 001|BaseLayer
+  - first:
+      74: 5428782316074704466
+    second: Bryan_Castaneda_foto_1_10|glass_3|Take 001|BaseLayer
+  - first:
+      74: -596964255969653399
+    second: Bryan_Castaneda_foto_1_10|glass_4|Take 001|BaseLayer
+  - first:
+      74: -3823051927496176273
+    second: Bryan_Castaneda_foto_1_10|glass_5|Take 001|BaseLayer
+  - first:
+      74: -4868760463413392972
+    second: Bryan_Castaneda_foto_1_10|glass|Take 001|BaseLayer
+  - first:
+      74: -3941946535387390585
+    second: Bryan_Castaneda_foto_1_10|Sol|Take 001|BaseLayer
+  - first:
+      74: 2914491239002758795
+    second: Bryan_Castaneda_foto_1_10|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: -4577897762420257127
+    second: Bryan_Castaneda_foto_1_10|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: 3335824938877477925
+    second: Bryan_Castaneda_foto_1_10|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: -1723604961168611316
+    second: Bryan_Castaneda_foto_1_10|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: -917850608641220816
+    second: Bryan_Castaneda_foto_1_10|VRayIES005|Take 001|BaseLayer
+  - first:
+      74: 5382864504005091133
+    second: Bryan_Castaneda_4_2|Bryan_Castaneda_1|Take 001|BaseLayer
+  - first:
+      74: 1457590740472683918
+    second: Bryan_Castaneda_4_2|Bryan_Castaneda_2|Take 001|BaseLayer
+  - first:
+      74: 1182907416548580353
+    second: Bryan_Castaneda_4_2|Bryan_Castaneda_3|Take 001|BaseLayer
+  - first:
+      74: -7362054794483202469
+    second: Bryan_Castaneda_4_2|Bryan_Castaneda_4_2|Take 001|BaseLayer
+  - first:
+      74: 3467217339823759454
+    second: Bryan_Castaneda_4_2|Bryan_Castaneda_4|Take 001|BaseLayer
+  - first:
+      74: -6985677511547954310
+    second: Bryan_Castaneda_4_2|Bryan_Castaneda_foto_1_10|Take 001|BaseLayer
+  - first:
+      74: 796805038643986156
+    second: Bryan_Castaneda_4_2|Bryan_Castaneda_foto_1_2|Take 001|BaseLayer
+  - first:
+      74: -6780718338366390682
+    second: Bryan_Castaneda_4_2|Bryan_Castaneda_foto_1_3|Take 001|BaseLayer
+  - first:
+      74: 5477271347814111410
+    second: Bryan_Castaneda_4_2|Bryan_Castaneda_foto_1_4|Take 001|BaseLayer
+  - first:
+      74: -2146548499663287902
+    second: Bryan_Castaneda_4_2|Bryan_Castaneda_foto_1_5|Take 001|BaseLayer
+  - first:
+      74: 6994782862456633471
+    second: Bryan_Castaneda_4_2|Bryan_Castaneda_foto_1|Take 001|BaseLayer
+  - first:
+      74: -7857372725694406265
+    second: Bryan_Castaneda_4_2|Bryan_Castaneda|Take 001|BaseLayer
+  - first:
+      74: 275205367206969603
+    second: Bryan_Castaneda_4_2|Camara 1|Take 001|BaseLayer
+  - first:
+      74: 3232462277367440441
+    second: Bryan_Castaneda_4_2|glass_10|Take 001|BaseLayer
+  - first:
+      74: -7696790691737156420
+    second: Bryan_Castaneda_4_2|glass_2|Take 001|BaseLayer
+  - first:
+      74: 7037761892848719748
+    second: Bryan_Castaneda_4_2|glass_3|Take 001|BaseLayer
+  - first:
+      74: -912582790326809937
+    second: Bryan_Castaneda_4_2|glass_4|Take 001|BaseLayer
+  - first:
+      74: -1000254033396237054
+    second: Bryan_Castaneda_4_2|glass_5|Take 001|BaseLayer
+  - first:
+      74: 8818542957868973115
+    second: Bryan_Castaneda_4_2|glass|Take 001|BaseLayer
+  - first:
+      74: 2533846062419514505
+    second: Bryan_Castaneda_4_2|Sol|Take 001|BaseLayer
+  - first:
+      74: 5534554161868630473
+    second: Bryan_Castaneda_4_2|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: 2961935505602135308
+    second: Bryan_Castaneda_4_2|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: 4143974342795704005
+    second: Bryan_Castaneda_4_2|VRayIES003|Take 001|BaseLayer
+  - first:
+      74: 2206917263589435651
+    second: Bryan_Castaneda_4_2|VRayIES004|Take 001|BaseLayer
+  - first:
+      74: -1878813180111474923
+    second: Bryan_Castaneda_4_2|VRayIES005|Take 001|BaseLayer
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

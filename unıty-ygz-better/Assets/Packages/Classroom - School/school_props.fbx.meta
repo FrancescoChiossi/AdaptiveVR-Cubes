@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 185aa43649a999744bc5e91fab48eef0
+timeCreated: 1473341954
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: book_1
+    100004: book_2
+    100006: book_3
+    100008: cactus
+    100010: case_1
+    100012: case_2
+    100014: cup
+    100016: flower
+    100018: folder_1
+    100020: folder_2
+    100022: folder_3
+    100024: paper_1
+    100026: paper_2
+    100028: paper_3
+    100030: pen
+    100032: pen_1
+    100034: pen_2
+    100036: pen_3
+    400000: //RootNode
+    400002: book_1
+    400004: book_2
+    400006: book_3
+    400008: cactus
+    400010: case_1
+    400012: case_2
+    400014: cup
+    400016: flower
+    400018: folder_1
+    400020: folder_2
+    400022: folder_3
+    400024: paper_1
+    400026: paper_2
+    400028: paper_3
+    400030: pen
+    400032: pen_1
+    400034: pen_2
+    400036: pen_3
+    2300000: //RootNode
+    2300002: book_1
+    2300004: book_2
+    2300006: book_3
+    2300008: cactus
+    2300010: case_1
+    2300012: case_2
+    2300014: cup
+    2300016: flower
+    2300018: folder_1
+    2300020: folder_2
+    2300022: folder_3
+    2300024: paper_1
+    2300026: paper_2
+    2300028: paper_3
+    2300030: pen
+    2300032: pen_1
+    2300034: pen_2
+    2300036: pen_3
+    3300000: //RootNode
+    3300002: book_1
+    3300004: book_2
+    3300006: book_3
+    3300008: cactus
+    3300010: case_1
+    3300012: case_2
+    3300014: cup
+    3300016: flower
+    3300018: folder_1
+    3300020: folder_2
+    3300022: folder_3
+    3300024: paper_1
+    3300026: paper_2
+    3300028: paper_3
+    3300030: pen
+    3300032: pen_1
+    3300034: pen_2
+    3300036: pen_3
+    4300000: school_props
+    4300002: case_1
+    4300004: cactus
+    4300006: flower
+    4300008: folder_3
+    4300010: folder_2
+    4300012: folder_1
+    4300014: book_3
+    4300016: book_2
+    4300018: book_1
+    4300020: paper_3
+    4300022: paper_2
+    4300024: paper_1
+    4300026: pen
+    4300028: pen_3
+    4300030: pen_2
+    4300032: pen_1
+    4300034: cup
+    4300036: case_2
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
