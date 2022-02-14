@@ -65,7 +65,7 @@ public class DataLogger : MonoBehaviour
         if (swVisitor == null)
         {
             swVisitor = (!File.Exists(filepath)) ? File.CreateText(filepath) : File.AppendText(filepath);
-            swVisitor.WriteLine("Time,Name,HasTicket,Type");
+            swVisitor.WriteLine("Time,Name,Type");
             swVisitor.Flush();
         }
 
@@ -97,7 +97,7 @@ public class DataLogger : MonoBehaviour
         {
             filepath = rootFolder + "ID" + participantId + "-flow.csv";
             swFlow = (!File.Exists(filepath)) ? File.CreateText(filepath) : File.AppendText(filepath);
-            swFlow.WriteLine("Time,Name,HasTicket,Shirtcolor,Hair");
+            swFlow.WriteLine("Time,Name");
             swFlow.Flush();
         }
 
@@ -156,7 +156,7 @@ public class DataLogger : MonoBehaviour
         if (swVisitor == null) {
             init();
         }
-        swVisitor.WriteLine(timestamp + "," + name + "," + hasTicket + "," + type);
+        swVisitor.WriteLine(timestamp + "," + name + "," + type);
         swVisitor.Flush();
     }
 
@@ -202,13 +202,13 @@ public class DataLogger : MonoBehaviour
     }
 
 
-    public void writeFlow(double timestamp, string name, bool hasticket, string shirtcolor, string hair)
+    public void writeFlow(double timestamp, string name)
     {
         if (swFlow == null)
         {
             init();
         }
-        swFlow.WriteLine(timestamp + "," + name + "," + hasticket + "," + shirtcolor + "," + hair);
+        swFlow.WriteLine(timestamp + "," + name );
         swFlow.Flush();
     }
 

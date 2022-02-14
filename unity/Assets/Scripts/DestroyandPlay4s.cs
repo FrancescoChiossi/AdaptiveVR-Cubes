@@ -27,7 +27,7 @@ public class DestroyandPlay4s : MonoBehaviour
         {
             //Debug.Log("Kill");
             
-            TODO: Add logging when sphere gets destroyed becasue of time out
+            //TODO: Add logging when sphere gets destroyed becasue of time out
             
             Destroy(this.gameObject);
             if (task != null)

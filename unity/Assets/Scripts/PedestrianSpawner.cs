@@ -83,6 +83,7 @@ public class PedestrianSpawner : MonoBehaviour
             if (characterRoot.transform.childCount > pedestriansToSpawn)
             {
                 Remove();
+                Debug.Log("lol");
                 logger.writeVisitorCount(time, pedestriansToSpawn, characterRoot.transform.childCount);
             }
         }
@@ -91,6 +92,7 @@ public class PedestrianSpawner : MonoBehaviour
         pedestrianCount = characterRoot.transform.childCount;
     }
 
+    
     public void Remove()
     {
         if (characterRoot.transform.childCount <= 1) {
@@ -110,9 +112,15 @@ public class PedestrianSpawner : MonoBehaviour
             }
         }
 
-        GameObject character = Instantiate(characterList.transform.GetChild(Random.Range(0, characterList.transform.childCount)).gameObject);
+        GameObject character = Instantiate(characterList.transform.GetChild(Random.Range(1, characterList.transform.childCount)).gameObject);
+        //GameObject character = Instantiate(characterList.transform.GetChild(1).gameObject); // cube-only
+        // e.g. Liam1
         character.name = character.name.Replace("(Clone)", "") + count;
         character.transform.parent = characterRoot.transform;
+        var collider = character.GetComponent<BoxCollider>();
+        Vector3 colSize = collider.size;
+        colSize.y = Random.Range(1f, 5f);
+        collider.size = colSize;
 
         Waypoint wp;
         Waypoint wp2;
@@ -153,7 +161,7 @@ public class PedestrianSpawner : MonoBehaviour
         character.transform.position = startPosition;
         character.GetComponent<WaypointNavigator>().currentWaypoint = wp2;
 
-        character.GetComponents<Animator>()[0].enabled = true;
+        //character.GetComponents<Animator>()[0].enabled = true;
         foreach (MonoBehaviour monoBehaviour in character.GetComponents<MonoBehaviour>())
         {
             monoBehaviour.enabled = true;
