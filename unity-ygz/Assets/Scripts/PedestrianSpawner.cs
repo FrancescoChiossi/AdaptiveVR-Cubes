@@ -124,7 +124,7 @@ public class PedestrianSpawner : MonoBehaviour
         character.transform.parent = characterRoot.transform;
         var collider = character.GetComponent<BoxCollider>();
         Vector3 colSize = collider.size;
-        colSize.y = Random.Range(1f, 5f);
+        colSize.y = Random.Range(1f, 6f);
         collider.size = colSize;
 
         Waypoint wp;

@@ -43,7 +43,7 @@ public class AdaptiveEDA: MonoBehaviour
 
     public int minCount = 10;
     
-    public int maxCount = 40;
+    public int maxCount = 120;
 
     [ReadOnly] public int currencount = 0;
 

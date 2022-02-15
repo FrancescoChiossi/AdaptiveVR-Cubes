@@ -126,13 +126,13 @@ public class Mytask : MonoBehaviour
                 Application.Quit();
 #endif
             }
-            else if (nextBlock == 6) {
+            else if (nextBlock == 4) {
                 adaptiveEDA.isActive = true;
-                pedestrianSpawner.pedestriansToSpawn = 25;
+                pedestrianSpawner.pedestriansToSpawn = 60;
                 logger.writeState(timestamp, "start", nextBlock, 2);
             } else {
                 adaptiveEDA.isActive = false;
-                pedestrianSpawner.pedestriansToSpawn = 5 + ((nextBlock-1)*10);
+                pedestrianSpawner.pedestriansToSpawn = 40 + ((nextBlock-1)*40);
                 logger.writeState(timestamp, "start", nextBlock, 1);
             }
 

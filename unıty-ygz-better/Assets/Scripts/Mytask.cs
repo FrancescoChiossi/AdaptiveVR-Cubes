@@ -128,11 +128,11 @@ public class Mytask : MonoBehaviour
             }
             else if (nextBlock == 6) {
                 adaptiveEDA.isActive = true;
-                pedestrianSpawner.pedestriansToSpawn = 25;
+                pedestrianSpawner.pedestriansToSpawn = 60;
                 logger.writeState(timestamp, "start", nextBlock, 2);
             } else {
                 adaptiveEDA.isActive = false;
-                pedestrianSpawner.pedestriansToSpawn = 5 + ((nextBlock-1)*10);
+                pedestrianSpawner.pedestriansToSpawn = 40 + ((nextBlock-1)*20);
                 logger.writeState(timestamp, "start", nextBlock, 1);
             }
 

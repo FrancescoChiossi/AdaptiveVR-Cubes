@@ -10,7 +10,7 @@ public class RecordBaseline : MonoBehaviour
     
     public int countForBaselineRecording;
 
-    public double duration = 60.0 * 3;
+    public double duration = 60.0 * 2;
     public double currentDuration = 0.0;
     private double timeStart = 0.0;
     private double timeEnd = 0.0;
