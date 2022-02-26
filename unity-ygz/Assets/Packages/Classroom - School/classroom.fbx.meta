@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: 895e8478872abe44c83d2a6b229e7bcd
+timeCreated: 1472722027
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube
+    100004: Cube.002
+    100006: Cube.003
+    100008: Cube.005
+    100010: Cube.001
+    100012: school_window
+    100014: school_window.001
+    100016: school_window.002
+    100018: school_window.003
+    100020: blackboard
+    100022: teacher's_desk
+    100024: school_desk
+    100026: school_door
+    100028: school_door_general
+    100030: lamp
+    100032: ' windowsill'
+    100034: jalousie
+    100036: roof
+    100038: room
+    100040: room_1
+    100042: jalousie.001
+    100044: jalousie.002
+    100046: jalousie.003
+    100048: baseboard
+    400000: //RootNode
+    400002: Cube
+    400004: Cube.002
+    400006: Cube.003
+    400008: Cube.005
+    400010: Cube.001
+    400012: school_window
+    400014: school_window.001
+    400016: school_window.002
+    400018: school_window.003
+    400020: blackboard
+    400022: teacher's_desk
+    400024: school_desk
+    400026: school_door
+    400028: school_door_general
+    400030: lamp
+    400032: ' windowsill'
+    400034: jalousie
+    400036: roof
+    400038: room
+    400040: room_1
+    400042: jalousie.001
+    400044: jalousie.002
+    400046: jalousie.003
+    400048: baseboard
+    2300000: Cube
+    2300002: Cube.002
+    2300004: Cube.003
+    2300006: Cube.005
+    2300008: Cube.001
+    2300010: school_window
+    2300012: school_window.001
+    2300014: school_window.002
+    2300016: school_window.003
+    2300018: blackboard
+    2300020: teacher's_desk
+    2300022: school_desk
+    2300024: school_door
+    2300026: school_door_general
+    2300028: lamp
+    2300030: ' windowsill'
+    2300032: jalousie
+    2300034: roof
+    2300036: room
+    2300038: room_1
+    2300040: jalousie.001
+    2300042: jalousie.002
+    2300044: jalousie.003
+    2300046: baseboard
+    3300000: Cube
+    3300002: Cube.002
+    3300004: Cube.003
+    3300006: Cube.005
+    3300008: Cube.001
+    3300010: school_window
+    3300012: school_window.001
+    3300014: school_window.002
+    3300016: school_window.003
+    3300018: blackboard
+    3300020: teacher's_desk
+    3300022: school_desk
+    3300024: school_door
+    3300026: school_door_general
+    3300028: lamp
+    3300030: ' windowsill'
+    3300032: jalousie
+    3300034: roof
+    3300036: room
+    3300038: room_1
+    3300040: jalousie.001
+    3300042: jalousie.002
+    3300044: jalousie.003
+    3300046: baseboard
+    4300000: Cube.005
+    4300002: Cube.003
+    4300004: Cube.002
+    4300006: Cube
+    4300008: Cube.001
+    4300010: school_window.003
+    4300012: school_window.002
+    4300014: school_window.001
+    4300016: school_window
+    4300018: teacher's_desk
+    4300020: blackboard
+    4300022: school_desk
+    4300024: school_door_general
+    4300026: school_door
+    4300028: lamp
+    4300030: jalousie
+    4300032: ' windowsill'
+    4300034: roof
+    4300036: room_1
+    4300038: room
+    4300040: jalousie.001
+    4300042: jalousie.003
+    4300044: jalousie.002
+    4300046: baseboard
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
