@@ -89,6 +89,7 @@ public class LSLInput : MonoBehaviour
                     samples = new LimitedSizeList<SignalSample1D>(samplesBuffer);
                 samples.Add(newSample);
                 samplesTotal = samples.Count;
+                Debug.Log("Total samples: " + samplesTotal);
             }
         }
     }

@@ -27,11 +27,11 @@ public class LaserpointerItemSelection : MonoBehaviour
         if (e.clickState == ClickState.Down)
         {
             //Debug.Log("TRIGGER DOWN");
-            if (e.target.tag == "visitor")
+          /*  if (e.target.tag == "visitor")
             {
                 //Debug.Log("TODO: Check Ticket DOWN");
                 logger.writeVisitorClick(timestamp, e.target.name, e.target.GetComponent<TicketSpawner>().hasticket, "down");
-            }
+            }*/
             if (e.target.tag == "nbacktask")
             {
                 //Debug.Log("TODO: Check nbacktask DOWN");
@@ -51,12 +51,12 @@ public class LaserpointerItemSelection : MonoBehaviour
         else if (e.clickState == ClickState.Up)
         {
             //Debug.Log("TRIGGER UP");
-            if (e.target.tag == "visitor")
+          /*  if (e.target.tag == "visitor")
             {
                 //Debug.Log("TODO: Check Ticket UP");
                 logger.writeVisitorClick(timestamp, e.target.name, e.target.GetComponent<TicketSpawner>().hasticket, "up");
                 e.target.GetComponent<ShirtController>().setSelected();
-            }
+            } */
             if (e.target.tag == "nbacktask")
             {
                 //Debug.Log("TODO: Check nback UP");

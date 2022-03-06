@@ -96,6 +96,8 @@ public class AdaptiveEDA: MonoBehaviour
 
                     //average = result.MovingAverage;
                     average = await tcp.SendMessage(outputStr);
+                    // Delete old data
+                    lSLInput.samples.Clear();
 
                     /*
                     double adaptiveError = -average + ultimovalor;
@@ -116,8 +118,6 @@ public class AdaptiveEDA: MonoBehaviour
                         pedestrianSpawner.pedestriansToSpawn = currentCount;
                         logger.writeAdaption(time, "less", currentCount, slopeBaseline, slopeEDA);
                         Debug.Log("Less LIAMS");
-
-
                     }
                     else if (slopeEDA < slopeBaseline - slopeThreshold)
                     {
