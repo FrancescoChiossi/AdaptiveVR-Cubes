@@ -43,8 +43,9 @@ while True:
                 signals, info = nk.eda_process(data_np, sampling_rate=1000)
                 # Visualise the processing
                 nk.eda_plot(signals, sampling_rate=1000)
-                average = np.average(signals['EDA_Tonic'])
+                #average = np.average(signals['EDA_Tonic'])
                 #tonic_new = cvx.cvxEDA(y=data_np, delta=1/1000)
+                signals['EDA_Tonic']
                 # Get average
                 #average = cvx.np.average(tonic_new)
                 print(average)
