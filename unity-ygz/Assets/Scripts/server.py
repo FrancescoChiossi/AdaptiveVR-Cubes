@@ -2,7 +2,7 @@ import socket
 import sys
 from ledapy.deconvolution import sdeconv_analysis
 from numpy import array as npa
-import cvxEDA as cvx
+# import cvxEDA as cvx
 import numpy as np
 import neurokit2 as nk
 
@@ -39,17 +39,21 @@ while True:
                     data_float_list.append(float(data_str))
 
                 data_np = npa(data_float_list)
+
                 # Process it
                 signals, info = nk.eda_process(data_np, sampling_rate=1000)
                 # Visualise the processing
-                nk.eda_plot(signals, sampling_rate=1000)
-                #average = np.average(signals['EDA_Tonic'])
-                #tonic_new = cvx.cvxEDA(y=data_np, delta=1/1000)
+                # nk.eda_plot(signals, sampling_rate=1000)
+                # average = np.average(signals['EDA_Tonic'])
+
                 signals['EDA_Tonic']
-                # Get average
-                #average = cvx.np.average(tonic_new)
-                print(average)
-                connection.sendall(str(average).encode("utf-8"))
+                signals_data = ""
+
+                for signal in signals['EDA_Tonic']:
+                    signals_data += str(signal) + "_"
+                signals_data = signals_data[:len(signals_data)-1]
+
+                connection.sendall(signals_data.encode("utf-8"))
             
 
             #print('received {0}'.format(data))

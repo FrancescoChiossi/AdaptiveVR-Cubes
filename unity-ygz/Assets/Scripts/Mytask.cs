@@ -46,6 +46,8 @@ public class Mytask : MonoBehaviour
 
     public DataLogger logger;
 
+    public float TimeSinceStart = 0;
+
     // Start is called before the first frame update
     void Start() //initializationstep 
     {
@@ -100,6 +102,13 @@ public class Mytask : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        int currentBlock = blockDesigner.getCurrentBlock();
+
+        if (state == STATES.wait && currentBlock == 6)
+        {
+            TimeSinceStart += Time.deltaTime;
+        }
+
         double timestamp = UnixTime.GetTime();
 
         if (Input.GetKeyDown("a"))
@@ -152,6 +161,7 @@ public class Mytask : MonoBehaviour
         }
         else if(Input.GetKeyDown("b") && STATES.start == state) //Start the baseline task
         {
+           // TimeSinceStartBase += Time.deltaTime;
             isRecodingBaseline = true;
             recordBaseline.startRecoding();
             adaptiveEDA.isActive = false;

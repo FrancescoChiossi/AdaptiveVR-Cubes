@@ -25,8 +25,8 @@ public class tcpClient : MonoBehaviour
 		socketConnection = new TcpClient("localhost", 8052);
 		/*await Task.Run(async () => {
             while (true) {
-				var average = await SendMessage("0.434_434_54785_43_56_"); // sample data, remove later
-				Debug.Log(average);
+				//var average = await SendMessage("-0.010214_0.009999_0.011373_0.011115_0.010600_-0.005107_0.006480_0.005965_0.005879_0.007081_-0.010214_0.009999_0.011373_0.011115_0.010600_-0.005107_0.006480_0.005965_0.005879_0.007081_-0.010214_0.009999_0.011373_0.011115_0.010600_-0.005107_0.006480_0.005965_0.005879_0.007081_"); // sample data, remove later
+				//Debug.Log(average);
 			}
 		});*/
 	}
@@ -34,12 +34,12 @@ public class tcpClient : MonoBehaviour
     /// <summary> 	
     /// Send message to server using socket connection. 	
     /// </summary> 	
-    public async Task<float> SendMessage(string clientMessage)
+    public async Task<List<float>> SendMessage(string clientMessage)
 	{
 		if (socketConnection == null)
 		{
 			Debug.Log("error");
-			return -1;
+			return null;
 		}
 		try
 		{
@@ -53,6 +53,7 @@ public class tcpClient : MonoBehaviour
 				stream.Write(clientMessageAsByteArray, 0, clientMessageAsByteArray.Length);
 			}
 
+			var valueList = new List<float>();
 			// Listen to new response
 			await Task.Run(() => {
 				while (!stream.DataAvailable)
@@ -75,15 +76,20 @@ public class tcpClient : MonoBehaviour
 				} while (stream.DataAvailable);
 				Debug.Log("server message received as: " + serverMessage);
 				// Converts the average string to floating point number
-				NewAverage = float.Parse(serverMessage.ToString());
+				//NewAverage = float.Parse(serverMessage.ToString());
+				var listStr = serverMessage.ToString().Split('_');
+				
+                foreach (var value in listStr)
+                {
+					valueList.Add(float.Parse(value));
+                }
 			});
-			return NewAverage;
-
+			return valueList;
 		}
 		catch (SocketException socketException)
 		{
 			Debug.Log("Socket exception: " + socketException);
-			return -1;
+			return null;
 		}
 	}
 }
