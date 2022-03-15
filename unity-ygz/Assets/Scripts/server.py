@@ -39,6 +39,7 @@ while True:
                     data_float_list.append(float(data_str))
 
                 data_np = npa(data_float_list)
+                print(data_np)
 
                 # Process it
                 signals, info = nk.eda_process(data_np, sampling_rate=1000)

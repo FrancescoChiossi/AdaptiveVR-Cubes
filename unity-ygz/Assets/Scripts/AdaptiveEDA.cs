@@ -61,88 +61,84 @@ public class AdaptiveEDA: MonoBehaviour
         get { return currencount; }
     }
 
-    private async void Start()
+    private void Update()
     {
-        while (true)
+        if (isActive == false)
+            return;
+
+        double time = UnixTime.GetTime();
+        //Debug.Log(mytask.TimeSinceStart);
+
+        // get data after every 20s
+        if (mytask.TimeSinceStart > nextActionTime)
         {
-            await Task.Run(async () =>
+            nextActionTime += (float)adaptionRate;
+            List<SignalSample1D> lstInput = lSLInput.samples;
+            Debug.Log(lstInput.Count);
+
+            if (lstInput.Count > 0)
             {
-                if (isActive == false)
-                    return;
-
-                double time = UnixTime.GetTime();
-                //Debug.Log(mytask.TimeSinceStart);
-
-                // get data after every 20s
-                if (mytask.TimeSinceStart > nextActionTime)
+                List<SignalSample> lst = SignalSample.convertToEDA(lstInput);
+                string outputStr = "";
+                foreach (var value in lst)
                 {
-                    nextActionTime += (float)adaptionRate;
-                    List<SignalSample1D> lstInput = lSLInput.samples;
-                    Debug.Log(lstInput.Count);
-
-                    if (lstInput.Count > 0)
-                    {
-                        List<SignalSample> lst = SignalSample.convertToEDA(lstInput);
-                        string outputStr = "";
-                        foreach (var value in lst)
-                        {
-                            outputStr += value.ToString(); // Convert data to appropriate format for server
-                        }
-
-                        totalCount = lst.Count;
-
-                        EDAStatistics result = GetArousalStatistics(lst, time);
-
-                        if (result != null)
-                        {
-                            // average = result.MovingAverage;
-                            // Send data to server
-                            List<float> tonicData = await tcp.SendMessage(outputStr);
-                            average = tonicData.Average();
-                            //average = await tcp.SendMessage(outputStr);
-                            //Debug.Log(average);
-                            // Delete old data
-                            lSLInput.samples.Clear();
-
-                            
-                            //double adaptiveError = -average + ultimovalor;
-                            //adaptiveFactor += adaptiveError * proportional;
-                            //Debug.Log(Math.Round(adaptiveFactor,1));
-                            //ultimovalor = average;
-                            
-
-                            tonicEDA = ((average - averageLast) / timeWindowInSeconds) * 60.0;
-                            averageLast = average;
-
-                            slopeBaseline = recordBaseline.getBaselineSlope();
-                            Debug.Log(slopeBaseline);
-                            if (tonicEDA > slopeBaseline + slopeThreshold)
-                            {
-                                currentCount = pedestrianSpawner.pedestriansToSpawn;
-                                currentCount -= adaptationDown;
-                                pedestrianSpawner.pedestriansToSpawn = currentCount;
-                                logger.writeAdaption(time, "less", currentCount, slopeBaseline, tonicEDA);
-                                Debug.Log("Less LIAMS");
-                            }
-                            else if (tonicEDA < slopeBaseline - slopeThreshold)
-                            {
-                                currentCount = pedestrianSpawner.pedestriansToSpawn;
-                                currentCount += adaptationUp;
-                                pedestrianSpawner.pedestriansToSpawn = currentCount;
-
-                                logger.writeAdaption(time, "more", currentCount, slopeBaseline, tonicEDA); //
-                                Debug.Log("More LIAMS");
-                            }
-                            Debug.Log(tonicEDA + " " + slopeBaseline + " " + (tonicEDA - slopeBaseline) + " " + slopeThreshold);
-                        }
-                    }
-                    else
-                    {
-                        Debug.LogWarning("No EDA data!");
-                    }
-
+                    outputStr += value.ToString(); // Convert data to appropriate format for server
                 }
-            });
+
+                totalCount = lst.Count;
+
+                EDAStatistics result = GetArousalStatistics(lst, time);
+
+                if (result != null)
+                {
+                    // average = result.MovingAverage;
+                    // Send data to server
+                    List<float> tonicData = tcp.SendMessage(outputStr);
+                    logger.writeTonic(tonicData, time);
+
+                    average = tonicData.Average();
+                    //average = await tcp.SendMessage(outputStr);
+                    //Debug.Log(average);
+                    // Delete old data
+                    lSLInput.samples.Clear();
+
+
+                    //double adaptiveError = -average + ultimovalor;
+                    //adaptiveFactor += adaptiveError * proportional;
+                    //Debug.Log(Math.Round(adaptiveFactor,1));
+                    //ultimovalor = average;
+
+
+                    tonicEDA = ((average - averageLast) / timeWindowInSeconds) * 60.0;
+                    averageLast = average;
+
+                    slopeBaseline = recordBaseline.getBaselineSlope();
+                    Debug.Log(slopeBaseline);
+                    if (tonicEDA > slopeBaseline + slopeThreshold)
+                    {
+                        currentCount = pedestrianSpawner.pedestriansToSpawn;
+                        currentCount -= adaptationDown;
+                        pedestrianSpawner.pedestriansToSpawn = currentCount;
+                        logger.writeAdaption(time, "less", currentCount, slopeBaseline, tonicEDA);
+                        Debug.Log("Less LIAMS");
+                    }
+                    else if (tonicEDA < slopeBaseline - slopeThreshold)
+                    {
+                        currentCount = pedestrianSpawner.pedestriansToSpawn;
+                        currentCount += adaptationUp;
+                        pedestrianSpawner.pedestriansToSpawn = currentCount;
+
+                        logger.writeAdaption(time, "more", currentCount, slopeBaseline, tonicEDA); //
+                        Debug.Log("More LIAMS");
+                    }
+                    Debug.Log(tonicEDA + " " + slopeBaseline + " " + (tonicEDA - slopeBaseline) + " " + slopeThreshold);
+                }
+            }
+            else
+            {
+                Debug.LogWarning("No EDA data!");
+            }
+
         }
     }
 

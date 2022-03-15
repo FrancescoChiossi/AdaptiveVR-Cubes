@@ -34,7 +34,7 @@ public class tcpClient : MonoBehaviour
     /// <summary> 	
     /// Send message to server using socket connection. 	
     /// </summary> 	
-    public async Task<List<float>> SendMessage(string clientMessage)
+    public List<float> SendMessage(string clientMessage)
 	{
 		if (socketConnection == null)
 		{
@@ -55,35 +55,33 @@ public class tcpClient : MonoBehaviour
 
 			var valueList = new List<float>();
 			// Listen to new response
-			await Task.Run(() => {
-				while (!stream.DataAvailable)
+			while (!stream.DataAvailable)
+			{
+				if (socketConnection == null)
 				{
-					if (socketConnection == null)
-					{
-						Debug.Log("socket interruption");
-						break;
-					}
+					Debug.Log("socket interruption");
+					break;
 				}
+			}
 
-				Byte[] bytes = new Byte[1024];
-				StringBuilder serverMessage = new StringBuilder();
-				int length;
-				// Read incomming stream into byte arrary. 	
-				do
-				{
-					length = stream.Read(bytes, 0, bytes.Length);
-					serverMessage.AppendFormat("{0}", Encoding.UTF8.GetString(bytes, 0, length));
-				} while (stream.DataAvailable);
-				Debug.Log("server message received as: " + serverMessage);
-				// Converts the average string to floating point number
-				//NewAverage = float.Parse(serverMessage.ToString());
-				var listStr = serverMessage.ToString().Split('_');
-				
-                foreach (var value in listStr)
-                {
-					valueList.Add(float.Parse(value));
-                }
-			});
+			Byte[] bytes = new Byte[1024];
+			StringBuilder serverMessage = new StringBuilder();
+			int length;
+			// Read incomming stream into byte arrary. 	
+			do
+			{
+				length = stream.Read(bytes, 0, bytes.Length);
+				serverMessage.AppendFormat("{0}", Encoding.UTF8.GetString(bytes, 0, length));
+			} while (stream.DataAvailable);
+			Debug.Log("server message received as: " + serverMessage);
+			// Converts the average string to floating point number
+			//NewAverage = float.Parse(serverMessage.ToString());
+			var listStr = serverMessage.ToString().Split('_');
+
+			foreach (var value in listStr)
+			{
+				valueList.Add(float.Parse(value));
+			}
 			return valueList;
 		}
 		catch (SocketException socketException)

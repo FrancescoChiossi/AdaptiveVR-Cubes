@@ -19,14 +19,15 @@ public class DataLogger : MonoBehaviour
     StreamWriter swFlow;
     StreamWriter swVisitorCount;
     StreamWriter swAdaption;
-
-    StreamWriter swEda, swEeg, swEcg;
+   
+    StreamWriter swEda, swEeg, swEcg, swTonic;
 
     StringBuilder stringbuilderEda = new StringBuilder();
     StringBuilder stringbuilderEeg = new StringBuilder();
     StringBuilder stringbuilderEcg = new StringBuilder();
+    StringBuilder stringbuilderTonic = new StringBuilder();
 
-    private int countedEda = 0, countedEeg = 0, countedEcg = 0;
+    private int countedEda = 0, countedEeg = 0, countedEcg = 0, countedTonic = 0;
 
 
 
@@ -107,6 +108,14 @@ public class DataLogger : MonoBehaviour
             swEda = (!File.Exists(filepath)) ? File.CreateText(filepath) : File.AppendText(filepath);
             swEda.WriteLine("Time,TimeLsl,Value");
             swEda.Flush();
+        }
+
+        if (swTonic == null)
+        {
+            filepath = rootFolder + "ID" + participantId + "-Tonic.csv";
+            swTonic = (!File.Exists(filepath)) ? File.CreateText(filepath) : File.AppendText(filepath);
+            swTonic.WriteLine("Time,Value");
+            swTonic.Flush();
         }
 
         if (swEeg == null)
@@ -234,6 +243,19 @@ public class DataLogger : MonoBehaviour
         swAdaption.Flush();
     }
 
+    internal void writeTonic(List<float> values, double time)
+    {
+        if (swTonic == null)
+        {
+            init();
+        }
+        foreach (var value in values)
+        {
+            swTonic.WriteLine(time + "," + value);
+        }
+        swTonic.Flush();
+    }
+
 
     internal void write(string name, SignalSample1D s)
     {
@@ -253,6 +275,7 @@ public class DataLogger : MonoBehaviour
                 swEda.Flush();
             }
         }
+
         else if (name.ToLower() == "eeg")
         {
             if (s.values.Length == 8)
@@ -308,6 +331,10 @@ public class DataLogger : MonoBehaviour
         if (swEcg != null)
         {
             swEcg.Flush();
+        }
+        if (swTonic != null)
+        {
+            swTonic.Flush();
         }
     }
 }
